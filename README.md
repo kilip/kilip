@@ -1,6 +1,7 @@
 ```go
 package main
 
+// main show to the world about me
 func main (){
 
     aboutMe := Programmer{
@@ -12,6 +13,6 @@ func main (){
         },
     }
 
-    fmt.Printf("Hello World %+w", aboutMe)
+    fmt.Printf("Hello World %+v", aboutMe)
 }
 ```
