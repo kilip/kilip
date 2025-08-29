@@ -21,7 +21,8 @@ func main (){
 		Framework: "too many framework i can working with :-)",
 		Email: "me at itstoni dot com"
 		Website: "https://itstoni.com",
-		Logs: "https://kilip.github.io/coding-logs"
+		Logs: "https://kilip.github.io/coding-logs",
+		CoolProjects: "please checkout my github pinned repositories."
     }
 
     PrintToTheWorld(aboutMe)
