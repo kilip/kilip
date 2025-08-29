@@ -20,10 +20,10 @@ func main() {
         },
 		Occupation: "Freelancer",
 		Framework: "too many framework i can working with :-)",
-		Email: "me at itstoni dot com"
+		Email: "me at itstoni dot com",
 		Website: "https://itstoni.com",
 		Logs: "https://kilip.github.io/coding-logs",
-		CoolProjects: "please checkout my github pinned repositories."
+		CoolProjects: "please checkout my github pinned repositories.",
     }
 
     PrintToTheWorld(aboutMe)
