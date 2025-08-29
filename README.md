@@ -8,11 +8,11 @@ import (
 )
 
 // ShowToTheWorld print to the world about me
-func ShowToTheWorld(aboutMe earth.Programmer){
+func PrintToTheWorld(aboutMe earth.Programmer){
 	fmt.Printf("Hello World: %+v", aboutMe)
 }
 
-// main show to the world about me
+// main will make about me appears to the world
 func main (){
     aboutMe := earth.Geek{
         Name: "Anthonius",
@@ -29,6 +29,6 @@ func main (){
 		Logs: "https://kilip.github.io/coding-logs"
     }
 
-    ShowToTheWorld(aboutMe)
+    PrintToTheWorld(aboutMe)
 }
 ```
