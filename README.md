@@ -8,7 +8,7 @@ import (
 )
 
 // main make about me appears to the world
-func main (){
+func main() {
     aboutMe := earth.Geek{
         Name: "Anthonius",
 		NickName: "toni",
