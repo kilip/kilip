@@ -11,6 +11,7 @@ import (
 func main (){
     aboutMe := earth.Geek{
         Name: "Anthonius",
+		NickName: "toni",
 		Hobby: "coding, piano, movies",
         Language: earth.LanguageLevel{
             NativeTongue: "go, php, typescript",
