@@ -7,11 +7,6 @@ import (
 	"universe/earth"
 )
 
-// ShowToTheWorld print to the world about me
-func PrintToTheWorld(aboutMe earth.Geek){
-	fmt.Printf("Hello World: %+v", aboutMe)
-}
-
 // main make about me appears to the world
 func main (){
     aboutMe := earth.Geek{
@@ -30,5 +25,10 @@ func main (){
     }
 
     PrintToTheWorld(aboutMe)
+}
+
+// PrintToTheWorld ask compiler to print to the world about me
+func PrintToTheWorld(aboutMe earth.Geek){
+	fmt.Printf("Hello World: %+v", aboutMe)
 }
 ```
