@@ -12,7 +12,7 @@ func PrintToTheWorld(aboutMe earth.Geek){
 	fmt.Printf("Hello World: %+v", aboutMe)
 }
 
-// main will make about me appears to the world
+// main make about me appears to the world
 func main (){
     aboutMe := earth.Geek{
         Name: "Anthonius",
