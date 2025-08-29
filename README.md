@@ -1,5 +1,3 @@
-### Hello!
-
 ```go
 package main
 
