@@ -8,7 +8,7 @@ import (
 )
 
 // ShowToTheWorld print to the world about me
-func PrintToTheWorld(aboutMe earth.Programmer){
+func PrintToTheWorld(aboutMe earth.Geek){
 	fmt.Printf("Hello World: %+v", aboutMe)
 }
 
