@@ -22,8 +22,9 @@ func main (){
 		Occupation: "Freelancer",
 		Framework: "too many framework i can working with :-) ",
 		Email: "me at itsoni dot com"
-		Hobby: "coding, piano, movies"
-
+		Website: "https://itstoni.com",
+		Logs: "https://kilip.github.io/coding-logs"
+		Hobby: "coding, piano, movies",
     }
 
     ShowToTheWorld(aboutMe)
