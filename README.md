@@ -16,7 +16,7 @@ func main() {
         Language: earth.LanguageLevel{
             NativeTongue: "go, php, typescript",
 			Limited: "c/c++, python",
-			InBrewing: "rust",
+			Brewing: "rust",
         },
 		Occupation: "Freelancer",
 		Framework: "too many framework i can working with :-)",
